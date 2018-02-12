@@ -1,13 +1,16 @@
 backend:
-  name:        test-repo
+  name:         git-gateway
+  accept_roles:
+    - admin
+    - editor
 
-media_folder:  static/assets
+media_folder:   static/assets
 
 collections:
-  - name:      blog
-    label:     Blog
-    folder:    blog
-    create:    true
+  - name:       blog
+    label:      Blog
+    folder:     blog
+    create:     true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
