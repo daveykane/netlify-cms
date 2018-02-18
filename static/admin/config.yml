@@ -1,5 +1,6 @@
 backend:
-  name:        git-gateway
+  name:        github
+  repo:        daveykane/netlify-cms
 
 media_folder:  static/assets
 
