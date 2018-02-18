@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "gatsby": "^1.9.158",
+    "gatsby-cli": "^1.1.40",
     "gatsby-link": "^1.6.34",
-    "gatsby-plugin-netlify-cms": "^1.0.6"
+    "gatsby-plugin-netlify-cms": "^1.0.6",
+    "gatsby-source-filesystem": "^1.5.20",
+    "gatsby-transformer-remark": "^1.7.32"
   },
   "resolutions": {
     "gatsby-plugin-netlify-cms/netlify-cms": "1.1.0"
